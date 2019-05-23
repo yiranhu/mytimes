@@ -1,0 +1,128 @@
+.first {
+  display: flex;
+  align-items:center;
+  width: 100%;
+  height: 80px;
+  z-index: 1;
+  background-color: white;
+  border-bottom: 2px solid black;
+  margin: 0;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+.first img {
+  padding-left: 20px;
+  height: 60px;
+}
+h3 {
+  color: MediumAquamarine;
+  padding-left: 20px;
+}
+nav {
+  margin-left: 400px;
+}
+nav span {
+  padding-right: 40px;
+  color: black;
+  padding-left: 50px;
+}
+h2 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+.imgone {
+  color: white;
+  display: flex;
+  align-items: center;
+  height: 300px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+}
+.imgtwo {
+  display: flex;
+  align-items: center;
+  height: 300px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+}
+.imgthree {
+  display: flex;
+  align-items: center;
+  height: 300px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+}
+.imgfour {
+  display: flex;
+  align-items: center;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
+  height: 300px;
+}
+h3 {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+#contanier {
+  display: flex;
+  justify-content: center;
+}
+.leftcontanier {
+  display:flex;
+  width: 630px;
+  flex-flow: column wrap;
+  margin-right: 40px;
+}
+.midcontanier {
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+  margin-right: 40px;
+}
+.rightcontanier {
+  display: flex;
+  width: 240px;
+  flex-direction: column;
+}
+.small {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.left , .right {
+  width: 48%;
+}
+.rightcontanier h3{
+  text-align: center;
+}
+.smallcontanier {
+  background-color: lightgrey;
+}
+.smallcontanier p {
+  padding:0 10px;
+  border-bottom: 1px solid black;
+}
+.footer {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  width: 100%
+  height:325px;
+  align-items: center;
+  background-color: MediumAquamarine;
+  margin:auto;
+}
+.footer h3 {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  padding-right: 10px;
+  border-right: 2px solid green;
+}
+.footer span {
+    margin-left: 10px;
+    padding-right: 50px;
+    display: inline-block;
+}
+.footer p {
+}
